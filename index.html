@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impressum & Datenschutzerklärung - ProStudio Lena Propp</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
   <style>
-    /* Сброс отступов и базовые стили */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -13,7 +16,7 @@
     }
 
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', Arial, sans-serif;
       background-color: #ffffff;
       color: #000000;
       display: flex;
@@ -32,8 +35,9 @@
     }
 
     header h1 {
+      font-family: 'Montserrat', Arial, sans-serif;
       font-size: 28px;
-      font-weight: bold;
+      font-weight: 700;
       margin-bottom: 5px;
     }
 
@@ -46,25 +50,18 @@
       border-top: 1px solid #000000;
       padding-top: 20px;
       margin-top: 20px;
-      text-align: left; /* основной текст выровнен по левому краю */
+      text-align: left;
     }
 
     h1, h2, h3 {
-      font-weight: bold;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
       margin-bottom: 10px;
     }
 
-    h1 {
-      font-size: 24px;
-    }
-
-    h2 {
-      font-size: 20px;
-    }
-
-    h3 {
-      font-size: 16px;
-    }
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 16px; }
 
     p, li {
       margin-bottom: 10px;
@@ -81,17 +78,10 @@
       text-decoration: underline;
     }
 
-    /* Адаптация под мобильные */
     @media (max-width: 400px) {
-      header h1 {
-        font-size: 22px;
-      }
-      header p, p, li {
-        font-size: 14px;
-      }
-      section {
-        padding-top: 15px;
-      }
+      header h1 { font-size: 22px; }
+      header p, p, li { font-size: 14px; }
+      section { padding-top: 15px; }
     }
   </style>
 </head>

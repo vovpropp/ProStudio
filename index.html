@@ -5,120 +5,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impressum & Datenschutzerklärung - ProStudio Lena Propp</title>
   <style>
+    /* Сброс отступов и базовые стили */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
       background-color: #ffffff;
       color: #000000;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
     }
-    header {
+
+    .container {
+      max-width: 600px;
+      width: 100%;
       text-align: center;
+    }
+
+    header {
       margin-bottom: 30px;
     }
-    header img {
-      max-width: 150px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-    h1, h2, h3 {
-      font-weight: bold;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-    h1 {
+
+    header h1 {
       font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 5px;
     }
-    h2 {
-      font-size: 22px;
-    }
-    h3 {
+
+    header p {
       font-size: 18px;
+      margin-bottom: 20px;
     }
-    a {
-      color: #000000;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+
     section {
       border-top: 1px solid #000000;
       padding-top: 20px;
       margin-top: 20px;
+      text-align: left; /* основной текст выровнен по левому краю */
     }
+
+    h1, h2, h3 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
     p, li {
       margin-bottom: 10px;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Адаптация под мобильные */
+    @media (max-width: 400px) {
+      header h1 {
+        font-size: 22px;
+      }
+      header p, p, li {
+        font-size: 14px;
+      }
+      section {
+        padding-top: 15px;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="container">
 
-<header>
-  <!-- Вставь сюда свой логотип -->
-  <!-- <img src="logo.png" alt="ProStudio Lena Propp"> -->
-  <h1>ProStudio Lena Propp</h1>
-  <p>Nagel & Fußpflege</p>
-</header>
-
-<section>
-  <h1>🌸 IMPRESSUM</h1>
-  <h2>ProStudio Lena Propp – Nagel & Fußpflege</h2>
-  <p>Selbstständige / Kleinunternehmerin (§ 19 UStG)</p>
-
-  <h3>📍 Adresse:</h3>
-  <p>Alfredstr. 66<br>
-     72250 Freudenstadt<br>
-     Deutschland
-  </p>
-
-  <h3>📞 Kontakt:</h3>
-  <p>
-    Telefon / WhatsApp: <a href="https://wa.me/491784440288" target="_blank">+49 178 4440288</a><br>
-    Telegram: <a href="https://t.me/deinusername" target="_blank">t.me/deinusername</a><br>
-    Viber: <a href="viber://chat?number=%2B491784440288">Viber Chat</a><br>
-    E-Mail: <a href="mailto:prostudio.nagel@gmail.com">prostudio.nagel@gmail.com</a>
-  </p>
-
-  <h3>💡 Umsatzsteuer:</h3>
-  <p>Kleinunternehmerin gemäß § 19 UStG (keine Ausweisung der Umsatzsteuer)</p>
-</section>
-
-<section>
-  <h1>🔒 DATENSCHUTZERKLÄRUNG</h1>
-  <p><strong>Verantwortliche Stelle:</strong><br>
-     ProStudio Lena Propp – Nagel & Fußpflege<br>
-     Alfredstr. 66, 72250 Freudenstadt<br>
-     E-Mail: <a href="mailto:prostudio.nagel@gmail.com">prostudio.nagel@gmail.com</a>
-  </p>
-
-  <h2>1️⃣ Allgemeine Hinweise</h2>
-  <p>Ich betreibe dieses Instagram-Profil zur Präsentation meiner Dienstleistungen (Nagelstudio & Fußpflege) sowie zur Kontaktaufnahme und Terminvereinbarung.</p>
-
-  <h2>2️⃣ Verarbeitung personenbezogener Daten</h2>
-  <p>Wenn Sie mich über Instagram Direct, WhatsApp, Telegram oder Viber kontaktieren, verarbeite ich die von Ihnen übermittelten personenbezogenen Daten (z. B. Name, Telefonnummer, Terminwünsche) ausschließlich zur Bearbeitung Ihrer Anfrage und zur Terminvereinbarung.</p>
-
-  <h2>3️⃣ WhatsApp</h2>
-  <p>Für die Kommunikation nutze ich WhatsApp. Es gelten die Datenschutzbestimmungen von WhatsApp: <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank">https://www.whatsapp.com/legal/privacy-policy-eea</a></p>
-
-  <h2>4️⃣ Telegram</h2>
-  <p>Für die Kommunikation über Telegram gelten die Datenschutzbestimmungen von Telegram: <a href="https://telegram.org/privacy" target="_blank">https://telegram.org/privacy</a></p>
-
-  <h2>5️⃣ Viber</h2>
-  <p>Für die Kommunikation über Viber gelten die Datenschutzbestimmungen von Viber: <a href="https://www.viber.com/privacy/" target="_blank">https://www.viber.com/privacy/</a></p>
-
-  <h2>6️⃣ Instagram / Meta</h2>
-  <p>Dieses Profil wird auf der Plattform Instagram betrieben (Meta Platforms Ireland Ltd.). Dabei werden personenbezogene Daten durch Meta verarbeitet. Weitere Informationen finden Sie hier: <a href="https://privacycenter.instagram.com/policy/" target="_blank">https://privacycenter.instagram.com/policy/</a></p>
-
-  <h2>7️⃣ Instagram Insights</h2>
-  <p>Instagram stellt mir anonymisierte statistische Auswertungen (Insights) zur Verfügung. Diese Daten lassen keinen Rückschluss auf einzelne Personen zu.</p>
-
-  <h2>8️⃣ Ihre Rechte</h2>
-  <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung sowie Einschränkung der Verarbeitung Ihrer personenbezogenen Daten gemäß DSGVO. Bitte wenden Sie sich hierzu an die oben genannte Kontaktadresse.</p>
-
-  <h2>🌿 Datenschutzhinweis (RU – кратко)</h2>
-  <p>Я обрабатываю персональные данные (сообщения, имя, номер телефона) только для записи на услуги и ответа на запросы. Данные обрабатываются через Instagram (Meta), WhatsApp, Telegram и Viber и не используются в иных целях.</p>
-</section>
-
-</body>
-</html>
+    <header>
+      <h1>ProStudio Lena Propp</h1>
+      <p>Nagel & Fußpflege</p

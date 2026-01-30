@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impressum & Datenschutzerklärung - ProStudio Lena Propp</title>
-
+  
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
 
   <style>
-    /* Общие стили */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -19,7 +18,7 @@
     body {
       font-family: 'Roboto', Arial, sans-serif;
       background-color: #f9f9f9;
-      color: #222222;
+      color: #000000;
       display: flex;
       justify-content: center;
       padding: 20px;
@@ -38,11 +37,11 @@
       text-align: center;
     }
 
-    /* HEADER */
     header {
       margin-bottom: 30px;
     }
 
+    
     h1.logo-header {
       display: flex;
       flex-direction: column;
@@ -52,11 +51,12 @@
     }
 
     h1.logo-header img.logo {
-      max-width: 320px;
+      max-width: 180px;
       height: auto;
       display: block;
     }
 
+    /* Скринридеры */
     .sr-only {
       position: absolute;
       width: 1px;
@@ -68,81 +68,54 @@
       border: 0;
     }
 
-     /* SECTIONS */
     section {
-      border-top: 1px solid #444444;
+      border-top: 1px solid #000000;
       padding-top: 20px;
       margin-top: 20px;
       text-align: left;
     }
 
-    h1.section-title {
-      display: flex;
-      align-items: center;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
-      font-size: 24px;
-      color: #111111;
-      margin-bottom: 10px;
-    }
-
-    h2, h3 {
-      display: flex;
-      align-items: center;
-      font-family: 'Montserrat', sans-serif;
+    h1, h2, h3 {
+      font-family: 'Montserrat', Arial, sans-serif;
       font-weight: 700;
       margin-bottom: 10px;
-      color: #111111;
     }
 
-    h2 {
-      font-size: 20px;
-    }
-
-    h3 {
-      font-size: 16px;
-    }
-
-    .icon {
-      display: inline-block;
-      width: 1.8em;
-      color: #222222;
-      font-weight: bold;
-      margin-right: 0.4em;
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-    }
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 16px; }
 
     p, li {
       margin-bottom: 10px;
       line-height: 1.5;
       font-size: 16px;
-      color: #222222;
     }
 
     a {
-      color: #222222;
+      color: #000000;
       text-decoration: none;
-      transition: color 0.2s;
     }
 
     a:hover {
-      color: #000000;
       text-decoration: underline;
     }
 
     @media (max-width: 400px) {
-      h1.logo-header img.logo { max-width: 140px; }
-      header p, p, li { font-size: 14px; }
-      section { padding-top: 15px; }
-      .icon { width: 1.5em; }
+      h1.logo-header img.logo {
+        max-width: 140px;
+      }
+      header p, p, li {
+        font-size: 14px;
+      }
+      section {
+        padding-top: 15px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
 
-    <!-- HEADER с логотипом -->
     <header>
       <h1 class="logo-header">
         <img src="logo.png" alt="ProStudio Lena Propp, Nagel & Fußpflege" class="logo">
@@ -150,46 +123,54 @@
       </h1>
     </header>
 
-    <!-- IMPRESSUM -->
     <section>
-      <h1 class="section-title"><span class="icon">🌸</span> IMPRESSUM</h1>
+      <h1>🌸 IMPRESSUM</h1>
       <h2>ProStudio Lena Propp – Nagel & Fußpflege</h2>
       <p>Selbstständige / Kleinunternehmerin (§ 19 UStG)</p>
 
-      <h3><span class="icon">📍</span> Adresse:</h3>
-      <p>Alfredstr. 66<br>72250 Freudenstadt<br>Deutschland</p>
+      <h3>📍 Adresse:</h3>
+      <p>Alfredstr. 66<br>
+         72250 Freudenstadt<br>
+         Deutschland
+      </p>
 
-      <h3><span class="icon">📞</span> Kontakt:</h3>
-      <p>Telefon / WhatsApp: <a href="https://wa.me/491784440288" target="_blank">+49 178 4440288</a><br>
-         E-Mail: <a href="mailto:prostudio.nagel@gmail.com">prostudio.nagel@gmail.com</a></p>
+      <h3>📞 Kontakt:</h3>
+      <p>
+        Telefon / WhatsApp: <a href="https://wa.me/491784440288" target="_blank">+49 178 4440288</a><br>
+        E-Mail: <a href="mailto:prostudio.nagel@gmail.com">prostudio.nagel@gmail.com</a>
+      </p>
 
-      <h3><span class="icon">💡</span> Umsatzsteuer:</h3>
+      <h3>💡 Umsatzsteuer:</h3>
       <p>Kleinunternehmerin gemäß § 19 UStG (keine Ausweisung der Umsatzsteuer)</p>
     </section>
 
-    <!-- DATENSCHUTZERKLÄRUNG -->
     <section>
-      <h1 class="section-title"><span class="icon">🔒</span> DATENSCHUTZERKLÄRUNG</h1>
+      <h1>🔒 DATENSCHUTZERKLÄRUNG</h1>
+      <p><strong>Verantwortliche Stelle:</strong><br>
+         ProStudio Lena Propp – Nagel & Fußpflege<br>
+         Alfredstr. 66, 72250 Freudenstadt<br>
+         E-Mail: <a href="mailto:prostudio.nagel@gmail.com">prostudio.nagel@gmail.com</a>
+      </p>
 
-      <h3><span class="icon">1</span> Allgemeine Hinweise</h3>
+      <h2>1️⃣ Allgemeine Hinweise</h2>
       <p>Ich betreibe dieses Instagram-Profil zur Präsentation meiner Dienstleistungen (Nagelstudio & Fußpflege) sowie zur Kontaktaufnahme und Terminvereinbarung.</p>
 
-      <h3><span class="icon">2</span> Verarbeitung personenbezogener Daten</h3>
-      <p>Wenn Sie mich über Instagram Direct oder WhatsApp kontaktieren, verarbeite ich die von Ihnen übermittelten personenbezogenen Daten ausschließlich zur Bearbeitung Ihrer Anfrage und zur Terminvereinbarung.</p>
+      <h2>2️⃣ Verarbeitung personenbezogener Daten</h2>
+      <p>Wenn Sie mich über Instagram Direct oder WhatsApp kontaktieren, verarbeite ich die von Ihnen übermittelten personenbezogenen Daten (z. B. Name, Telefonnummer, Terminwünsche) ausschließlich zur Bearbeitung Ihrer Anfrage und zur Terminvereinbarung.</p>
 
-      <h3><span class="icon">3</span> WhatsApp</h3>
+      <h2>3️⃣ WhatsApp</h2>
       <p>Für die Kommunikation nutze ich WhatsApp. Es gelten die Datenschutzbestimmungen von WhatsApp: <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank">https://www.whatsapp.com/legal/privacy-policy-eea</a></p>
 
-      <h3><span class="icon">4</span> Instagram / Meta</h3>
+      <h2>4️⃣ Instagram / Meta</h2>
       <p>Dieses Profil wird auf der Plattform Instagram betrieben (Meta Platforms Ireland Ltd.). Dabei werden personenbezogene Daten durch Meta verarbeitet. Weitere Informationen finden Sie hier: <a href="https://privacycenter.instagram.com/policy/" target="_blank">https://privacycenter.instagram.com/policy/</a></p>
 
-      <h3><span class="icon">5</span> Instagram Insights</h3>
+      <h2>5️⃣ Instagram Insights</h2>
       <p>Instagram stellt mir anonymisierte statistische Auswertungen (Insights) zur Verfügung. Diese Daten lassen keinen Rückschluss auf einzelne Personen zu.</p>
 
-      <h3><span class="icon">6</span> Ihre Rechte</h3>
+      <h2>6️⃣ Ihre Rechte</h2>
       <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung sowie Einschränkung der Verarbeitung Ihrer personenbezogenen Daten gemäß DSGVO. Bitte wenden Sie sich hierzu an die oben genannte Kontaktadresse.</p>
 
-      <h3><span class="icon">🌿</span> Datenschutzhinweis (RU – кратко)</h3>
+      <h2>🌿 Datenschutzhinweis (RU – кратко)</h2>
       <p>Я обрабатываю персональные данные (сообщения, имя, номер телефона) только для записи на услуги и ответа на запросы. Данные обрабатываются через Instagram (Meta) и WhatsApp и не используются в иных целях.</p>
     </section>
 
